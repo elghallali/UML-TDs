@@ -2,31 +2,6 @@
 
 ## Example 1
 
-### Hi
-
-```mermaid
-
-classDiagram
-    note "From Duck till Zebra"
-    Animal <|-- Duck
-    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int age
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    Duck : +String beakColor
-    Duck : +swim()
-    Duck :+quack()
-    Fish : -int sizeInFeet
-    Fish :-canEat()
-    Zebra : +bool is_wild
-    Zebra : +run()
-```
-
-## Example 2
-
 ```mermaid
 classDiagram
 classA <|-- classB
@@ -39,7 +14,7 @@ classM <|.. classN
 classO .. classP
 ```
 
-## Example 3
+## Example 2
 
 ```mermaid
 classDiagram
@@ -53,7 +28,7 @@ classM ..|> classN : Realization
 classO .. classP : Link(Dashed)
 ```
 
-## Example 4
+## Example 3
 
 ```mermaid
 classDiagram
@@ -63,7 +38,7 @@ classDiagram
     Teacher "1" --> "0..1" Course
 ```
 
-## Example 5
+## Example 4
 
 ```mermaid
 classDiagram
@@ -83,7 +58,7 @@ classDiagram
   Student "1" --o "1" Bike : rides
 ```
 
-## Example 6
+## Example 5
 
 ```mermaid
 classDiagram
